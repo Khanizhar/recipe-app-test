@@ -11,14 +11,18 @@ class FavoriteRecipesView extends StatelessWidget {
     final favoriteRecipes = context.watch<HomeViewModel>().favorites;
     return Scaffold(
       appBar: AppBar(
-        title: Text('Favorite Recipes'),
+        title: const Text('Favorite Recipes'),
       ),
-      body: ListView.builder(
-          itemCount: favoriteRecipes.length,
-          itemBuilder: (context, index) {
-            final recipe = favoriteRecipes[index];
-            return FavoriteRecipeCard(recipe: recipe);
-          }),
+      body: favoriteRecipes.isEmpty
+          ? const Center(
+              child: Text('No favorite recipes added',
+                  style: TextStyle(color: Colors.grey)))
+          : ListView.builder(
+              itemCount: favoriteRecipes.length,
+              itemBuilder: (context, index) {
+                final recipe = favoriteRecipes[index];
+                return FavoriteRecipeCard(recipe: recipe);
+              }),
     );
   }
 }
