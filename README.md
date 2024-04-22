@@ -1,16 +1,14 @@
-# izhar_test
+# Recipe App
 
-A new Flutter project.
+## Screenshots
 
-## Getting Started
+### 1. Home Screen (showing random recipes)
+![image](https://github.com/Khanizhar/recipe-app-test/assets/111627201/9446b7d4-762b-4a6e-a226-96c55e7be077)
 
-This project is a starting point for a Flutter application.
+### 2. Favorites screen (showing favorite recipes)
+![image](https://github.com/Khanizhar/recipe-app-test/assets/111627201/0faa6afe-15c6-4125-9247-1d141062552f)
 
-A few resources to get you started if this is your first Flutter project:
+### 3. Recipe details screen (showing instruction and ingredients)
+![image](https://github.com/Khanizhar/recipe-app-test/assets/111627201/43fdd711-b865-49ac-b814-bc4ccad30a38)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://github.com/Khanizhar/recipe-app-test/assets/111627201/c9eb966b-b1cb-47cf-95df-e3ee7112e4c5)
